@@ -12,6 +12,14 @@ import kit from './assets/photos/kit.webp'
 import huddle from './assets/photos/huddle.webp'
 import squadWhites from './assets/photos/squad-whites.webp'
 import teamSheet from './assets/photos/team-sheet.webp'
+import squadYellow from './assets/photos/squad-yellow.webp'
+import squadMint from './assets/photos/squad-mint.webp'
+import squadFloodlights from './assets/photos/squad-floodlights.webp'
+import squadStadium from './assets/photos/squad-stadium.webp'
+import squadGoldenHour from './assets/photos/squad-golden-hour.webp'
+import squadMintSky from './assets/photos/squad-mint-sky.webp'
+import pitchsideRest from './assets/photos/pitchside-rest.webp'
+import trainingStretch from './assets/photos/training-stretch.webp'
 
 export const club = {
   name: 'Saturday FC',
@@ -105,13 +113,21 @@ export const kitInfo = {
 
 export const gallery = [
   { src: squadSunset, caption: 'The whole Saturday family' },
+  { src: squadFloodlights, caption: 'Under the floodlights at dusk' },
   { src: action2, caption: 'Matchday on the dry pitch' },
+  { src: squadYellow, caption: 'Squad in yellow' },
   { src: celebration, caption: 'Celebrating another win' },
+  { src: trainingStretch, caption: 'Stretching before kick-off' },
   { src: squadRed, caption: 'In the red home kit' },
+  { src: squadMint, caption: 'Squad in mint green' },
   { src: trainingWide, caption: 'Warm-up before kick-off' },
+  { src: squadGoldenHour, caption: 'Golden hour on the pitch' },
   { src: huddle, caption: 'Team talk' },
+  { src: squadStadium, caption: 'Lined up at the stadium' },
   { src: squadBlack, caption: 'Squad in black' },
+  { src: pitchsideRest, caption: 'Catching our breath pitchside' },
   { src: action1, caption: 'Chasing the ball' },
+  { src: squadMintSky, caption: 'Mint kits, blue sky' },
   { src: squadTrack, caption: 'Squad photo by the track' },
   { src: teamSheet, caption: 'The hand-drawn team sheet' },
   { src: squadWhites, caption: 'Squad in white' },
