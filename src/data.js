@@ -69,17 +69,17 @@ export const story = [
 export const lineup = {
   formation: '4-3-3',
   players: [
-    { number: 1, name: 'Keeper', x: 50, y: 90 },
-    { number: 2, name: 'Right Back', x: 84, y: 70 },
-    { number: 4, name: 'Centre Back', x: 62, y: 74 },
-    { number: 5, name: 'Centre Back', x: 38, y: 74 },
-    { number: 3, name: 'Left Back', x: 16, y: 70 },
-    { number: 6, name: 'Holding Mid', x: 50, y: 55 },
-    { number: 8, name: 'Box to Box', x: 72, y: 45 },
-    { number: 10, name: 'Playmaker', x: 28, y: 45 },
-    { number: 7, name: 'Right Wing', x: 82, y: 24 },
+    { number: 1, name: 'Min Khaing', x: 50, y: 90 },
+    { number: 42, name: 'zaybimendi', x: 84, y: 70 },
+    { number: 4, name: 'KM', x: 62, y: 74 },
+    { number: 5, name: 'Ohmm', x: 38, y: 74 },
+    { number: 3, name: 'Ye Naung', x: 16, y: 70 },
+    { number: 6, name: 'Chan Myae', x: 50, y: 55 },
+    { number: 8, name: 'MML', x: 72, y: 45 },
+    { number: 10, name: 'Ye Min', x: 28, y: 45 },
+    { number: 7, name: 'SYY', x: 82, y: 24 },
     { number: 9, name: 'Ethan', x: 50, y: 16 },
-    { number: 11, name: 'Left Wing', x: 18, y: 24 },
+    { number: 11, name: 'Do Lay', x: 18, y: 24 },
   ],
 }
 
