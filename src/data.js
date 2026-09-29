@@ -94,7 +94,7 @@ export const lineup = {
 export const nextMatch = {
   date: '2026-10-03',
   time: '07:00',
-  opponent: 'Sunday Legends',
+  opponent: 'Department of Forestry FC',
   venue: club.ground,
 }
 
