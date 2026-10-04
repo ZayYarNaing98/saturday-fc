@@ -31,12 +31,21 @@ export default function Matchday() {
           <div className="match-cards">
             <article className="match-card match-next">
               <p className="match-label">Next match</p>
-              <p className="match-vs">
-                {club.shortName} <span>vs</span> {nextMatch.opponent}
-              </p>
-              <p className="match-meta">
-                {formatDate(nextMatch.date)} · {nextMatch.time} · {nextMatch.venue}
-              </p>
+              {nextMatch ? (
+                <>
+                  <p className="match-vs">
+                    {club.shortName} <span>vs</span> {nextMatch.opponent}
+                  </p>
+                  <p className="match-meta">
+                    {formatDate(nextMatch.date)} · {nextMatch.time} · {nextMatch.venue}
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="match-vs">To be announced</p>
+                  <p className="match-meta">Fixture coming soon · {club.kickoff}</p>
+                </>
+              )}
             </article>
             <article className="match-card">
               <p className="match-label">Last result · {formatDate(lastResult.date)}</p>
@@ -51,6 +60,10 @@ export default function Matchday() {
                   {won ? 'Win' : drew ? 'Draw' : 'Loss'}
                 </b>
               </p>
+              {lastResult.headline && <p className="match-headline">{lastResult.headline}</p>}
+              {lastResult.scorers?.length > 0 && (
+                <p className="match-scorers">⚽ {lastResult.scorers.join(' · ')}</p>
+              )}
             </article>
             <article className="match-card match-when">
               <img className="match-when-crest" src={crest} alt="" loading="lazy" />

@@ -91,18 +91,17 @@ export const lineup = {
   ],
 }
 
-export const nextMatch = {
-  date: '2026-10-03',
-  time: '07:00',
-  opponent: 'Department of Forestry FC',
-  venue: club.ground,
-}
+// Set to null when the next fixture isn't confirmed yet, e.g.
+// { date: '2026-10-11', time: '07:00', opponent: 'Opponent FC', venue: club.ground }
+export const nextMatch = null
 
 export const lastResult = {
-  date: '2026-09-26',
-  opponent: 'Morning Stars',
-  us: 4,
+  date: '2026-10-04',
+  opponent: 'MONREC FC',
+  us: 3,
   them: 2,
+  headline: 'Never write us off — 2–0 down, three goals in the last ten minutes.',
+  scorers: ['Ko KMO (chip)', 'Ko CM (40-yard rocket)', 'YaYa (90+)'],
 }
 
 export const kitInfo = {

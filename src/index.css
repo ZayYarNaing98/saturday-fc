@@ -209,6 +209,8 @@ button { font: inherit; }
 .match-meta { color: #c9c9ce; margin-top: 10px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .match-score { font-family: var(--display); font-size: 4.5rem; line-height: 0.9; display: flex; gap: 14px; align-items: center; }
 .match-score small { font-size: 0.5em; color: var(--grey); }
+.match-headline { margin-top: 14px; font-weight: 600; }
+.match-scorers { margin-top: 6px; font-size: 0.9rem; color: var(--grey); }
 .badge { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 3px 10px; }
 .badge.win { background: var(--red); }
 .badge.draw { background: var(--char-3); }
